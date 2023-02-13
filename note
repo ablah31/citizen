@@ -1,0 +1,64 @@
+<div class="d-flex flex-row justify-content-between p-3 mid">
+    <div class="d-flex flex-column"><small class="text-muted mb-1">ENGINE</small><div class="d-flex flex-row"><img src="\ressources\images\moteur.jpeg" width="35px" height="25px"><div class="d-flex flex-column ml-1"><small class="ghj">1.4L MultiAir</small><small class="ghj">16V I-4 Turbo</small></div></div></div>
+    <div class="d-flex flex-column"><small class="text-muted mb-2">HORSEPOWER</small><div class="d-flex flex-row"><img src="\ressources\images\vit.jpeg"><h6 class="ml-1">135 hp&ast;</h6></div></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container lc-block text-center mt-5">
+    <p class="lead fs-2 fw-bolder">Découvrez nos véhicules disponibles à la location :
+  
+    </p>
+   </div>
+  
+  <div class="container min-vh-100 d-flex align-items-center">
+    
+      <div class="row">
+          <div class="col-md-6">
+              <div class="lc-block">
+                  <div class="card shadow-lg p-3 bg-white text-dark">
+                      <img class="card-img-top" src="\ressources\images\amg200.jpg" alt="Photo by CoinView App" loading="lazy">
+                      <div class="card-body text-center">
+                          <h3 class="card-title mb-5" editable="inline">CLASSE A200 "AMG LINE" </h3>
+                          <h4 class="card-subtitle text-start" editable="inline">A partir de:<b><span>
+                90€/</span><span>jour</span></b></h4>
+                          <a class="btn btn-link" href="#" role="button">Voir disponibilité</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- /lc-block -->
+          </div>
+          <!-- /col -->
+          <div class="col-md-6">
+              <div class="lc-block">
+                  <div class="card shadow-lg p-3 bg-white text-dark">
+                      <img class="card-img-top" src="\ressources\images\clio.png" alt="Photo by Omar Prestwich" loading="lazy">
+                      <div class="card-body text-center">
+                          <h3 class="card-title mb-5" editable="inline">Clio V "Initiale</h3>
+                          <h4 class="card-subtitle text-start" editable="inline">A partir de:<b><span>
+                90€/</span><span>jour</span></b></h4>
+                          <a class="btn btn-link" href="#" role="button">Voir disponibilité</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- /lc-block -->
+          </div>
+          <!-- /col -->
+          
+              <!-- /lc-block -->
+          </div>
+          <!-- /col -->
+      </div>
+  </div>
+  
+  

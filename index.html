@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CITIZEN est une agence spécialisée dans la location de voiture situé sur Toulouse. Nous serions ravis de vous proposer nos services.À la recherche d'une voiture de location sur Toulouse et ses environs? Nous sommes ravis de vous proposer nos services. Louez votre voiture de location au meilleur prix, avec flexibilité et sans frais cachés.">
+    <title>CITIZEN agence de location de voiture sur Toulouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="\ressources\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container-fluid justify-content-center fw-bolder">
+      <a class="navbar-brand" href="#"> <img src="\ressources\images\logopaint.png" alt="Bootstrap" width="150" height="45"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item text-uppercase px-3">
+            <a class="nav-link active" aria-current="page" href="#propos">A propos</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-uppercase " href="#voiture">Nos Véhicules</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-uppercase " href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="banner-image d-flex min-vh-100 img-fluid" lc-helper="background" style="background:url(https://www.hdcarwallpapers.com/walls/mercedes_benz_c_300_amg_line_estate_2021_4k_interior-HD.jpg)  center / cover no-repeat; background-color:#444; background-blend-mode: overlay;">
+    <div class="card card1 cb1 align-self-center text-center text-light col-md-8 offset-md-2">
+      <div class="lc-block mb-4">
+        <div editable="rich">
+          <h1 class="display-1 fw-bolder">CITIZEN</h1>
+        </div>
+      </div>
+  
+      <div class="lc-block">
+        <div editable="rich">
+          <p class="lead fs-2">À la recherche d'une voiture de location sur Toulouse et ses environs? Nous sommes ravis de vous proposer nos services.</p>
+  
+          <p class="lead fs-2">Louez votre voiture de location au meilleur prix, avec flexibilité et sans frais cachés.
+  
+          </p>
+  
+        </div>
+      </div>
+  
+      <div class="lc-block">
+        <svg onclick="if (!document.querySelector('body').classList.contains('livecanvas-is-editing') ) this.closest('section').nextElementSibling.scrollIntoView({ behavior: 'smooth'  });" width="4em" height="3em" viewBox="0 0 16 16" class="text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon">
+          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+          <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"></path>
+        </svg>
+  
+        <!-- for Safari support only, remove if you want  -->
+        <script async="" src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+      </div>
+    </div>
+  </div>
+    </div>
+  </section>
+  
+  
+ 
+
+<style>
+  .about-img-shape {margin:30px;z-index:1}
+  .about-img-shape::before {
+    position: absolute;
+      left: -31px;
+      top: -30px;
+      width: 80%;
+      height: 90%;
+      z-index: -1;
+      content: '';
+      background-color: var(--bs-dark);
+      transition: .5s;
+    
+  }
+  .about-img-shape:after {
+      position: absolute;
+      right: -31px;
+      bottom: -30px;
+      width: 80%;
+      height: 90%;
+      z-index: -1;
+      content: '';
+      background-color: var(--bs-dark);
+      transition: .5s;
+  }
+  </style>
+  
+  <div class="container gradient" id="propos">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="lc-block">
+  
+          <h2 editable="inline" class="display-2 mb-0 fw-bolder text-white"><b class="underline--magical">Qui sommes-nous?</b></h2>
+          <h5 editable="inline" class="fw-bolder"><strong>CITIZEN</strong> est une agence spécialisée dans la location de voiture.<br>Situé sur Toulouse, nous serions ravis de vous proposer nos services.</h5>
+        </div><!-- /lc-block -->
+      </div>
+    </div>
+  
+  
+  
+    <div class="container py-5">
+  
+      <div class="row m-4">
+        <div class="col-lg-5 align-self-center">
+          <div class="lc-block about-img-shape position-relative"> <img class="img-fluid" src="\ressources\images\tdb3008.jpg" alt="Photo by Dane Deaner">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 my-2 align-self-center">
+          <div class="lc-block">
+            <div editable="rich">
+              <h2 class="fw-bolder text-white underline--magical">Plutôt citadine ?<br></h2>
+              <p class="fw-bolder">Vous souhaitez circuler facilement en ville, tout en réduisant votre empreinte carbone? Vous adorerez rouler dans ce type de véhicule.
+                <br>Les modèles citadines sont des voitures 3 portes qui se caractérisent par leur maniabilité ainsi que leurs confort pour les trajets en ville.</p>
+            </div>
+          </div>
+          <!-- /lc-block -->
+        </div>
+      </div>
+      <div class="row m-4">
+        <div class="col-lg-6 offset-lg-1 my-2 align-self-center">
+          <div class="lc-block">
+            <div editable="rich">
+              <h2 class="fw-bolder text-white underline--magical">Gros cylindre ?</h2>
+              <p class="fw-bolder">Vous êtes à la recherche d'un modéle SUV ou bien sportif? Sachez que l'équipe CITIZEN sera répondre à vos critères.<br>Que vous cherchiez une berline ou autre chose de plus compact, nous avons tout ce qu'il vous faut. Nos tarifs sont abordables et notre service impeccable, alors parcourez notre inventaire et choissisez votre véhicule.</p>
+            </div>
+          </div>
+          <!-- /lc-block -->
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="lc-block about-img-shape position-relative"> <img class="img-fluid" src="\ressources\images\troc.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="container lc-block text-center mt-5" id="voiture">
+    <p class="lead fs-2 fw-bolder text-white">Découvrez nos véhicules disponibles à la location :
+  
+    </p>
+   </div>
+
+  
+  <div class="container-fluid d-flex justify-content-center px-4">
+    <div class="row mt-5 gx-5">
+      <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+        <div class="card car">
+      <img src="\ressources\images\clio-removebg-preview.png" class="card-img-top" width="100%" alt="Clio V">
+      <div class="car card-body pt-0 px-0">
+        <div class="d-flex flex-row justify-content-between mb-0 px-3">
+          <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+          <h5>&euro;80/jour</h5>
+        </div>
+        <hr class="mt-2 mx-3">
+        <div class="d-flex flex-row justify-content-between px-3 pb-4">
+          <div class="d-flex flex-column fw-bolder"><span class="text-muted">CLIO V</span>Initiale</div>
+          <div class="d-flex flex-column"><h7 class="mb-0">RENAULT</h7 class="text-muted text-right"><small>2020</small></div>
+        </div>
+        
+        <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions1" aria-controls="offcanvasWithBothOptions1" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions1" aria-labelledby="offcanvasWithBothOptionsLabel1">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>RENAULT Clio V</strong> <em>INITIALE</em></span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <img src="\ressources\images\cliosansfond.png" class="img-fluid" alt="Clio V">
+            <p>Véritable star dans sa catégorie, la Renault Clio est le best-seller de la marque au losange 
+              (en tête des ventes de voitures neuves en France depuis de nombreuses années).Si pour vous, voiture haut de gamme rime avec intérieur cuir, chrome à profusion, 
+              équipements en pagaille, la Renault Clio dans sa déclinaison Initiale Paris devrait correspondre à vos attentes.</p>
+              <p>Voici nos tarifs :
+                <ul>
+                  <li>24H: <span class="text-white">80&euro;</span></li>
+                  <li>5J: <span class="text-white">350&euro;</span></li>
+                  <li>7J: <span class="text-white">500&euro;</span></li>
+                  <li>WEEK-END: <span class="text-white">350&euro;</span></li>
+                </ul>
+              </p>
+
+              <p>Concernant les kilométrages voici les détails ci-dessous:
+                <em>
+                  <ul>
+                    <li>24H: 150km(inclus)</li>
+                    <li>5J: 750km(inclus)</li>
+                    <li>7J: 1100km(inclus)</li>
+                    <li>VEN-DIM: 350km(inclus)</li>
+                    <li>VEN-LUN: 650km(inclus)</li>
+                    <li>Tous kilométres supplémentaires sera facture : 0.8&euro;/km</li>
+                  </ul>
+                </em>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+        <div class="card car" >
+      <img src="\ressources\images\amg200-removebg-preview.png" class="card-img-top" width="100%" alt="mercedes-classe A">
+      <div class="car card-body pt-0 px-0">
+        <div class="d-flex flex-row justify-content-between mb-0 px-3">
+          <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+          <h5>&euro;120/jour</h5>
+        </div>
+        <hr class="mt-2 mx-3">
+        <div class="d-flex flex-row justify-content-between px-3 pb-4">
+          <div class="d-flex flex-column fw-bolder"><span class="text-muted">Classe A</span>AMG LINE</div>
+          <div class="d-flex flex-column"><h7 class="mb-0">MERCEDES</h7 class="text-muted text-right"><small>2020</small></div>
+        </div>
+        
+        <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>MERCEDES Classe A</strong> <em>AMG LINE</em></span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <img src="\ressources\images\mercosansfond.png" class="img-fluid" alt="Clio V">
+            <p>Avec la Mercedes-AMG Classe A, vous affichez clairement votre plaisir de conduire. Le design extérieur, 
+              avec ses jupes avant et arrière spéciales et de nombreux autres détails passionnants, signale sous tous les angles que ce véhicule évolue dans une ligue très particulière, 
+              tant sur le plan émotionnel que sur celui de la dynamique de conduite. 
+              Ils portent tous l’ADN reconnaissable d’AMG Driving Performance, qui puise ses racines dans le sport automobile.</p>
+              <p>Voici nos tarifs :
+                <ul>
+                  <li>24H: <span class="text-white">120&euro;</span></li>
+                  <li>5J: <span class="text-white">550&euro;</span></li>
+                  <li>7J: <span class="text-white">750&euro;</span></li>
+                  <li>WEEK-END: <span class="text-white">450&euro;</span></li>
+                </ul>
+              </p>
+
+              <p>Concernant les kilométrages voici les détails ci-dessous:
+                <em>
+                  <ul>
+                    <li>24H: 150km(inclus)</li>
+                    <li>5J: 750km(inclus)</li>
+                    <li>7J: 1100km(inclus)</li>
+                    <li>VEN-DIM: 350km(inclus)</li>
+                    <li>VEN-LUN: 650km(inclus)</li>
+                    <li>Tous kilométres supplémentaires sera facture : 0.5&euro;/km</li>
+                  </ul>
+                </em>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    
+      </div>
+    
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center px-4">
+      <div class="row mt-5 gx-5">
+        <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+          <div class="card car" >
+        <img src="\ressources\images\volswagen.png" class="card-img-top" width="100%" alt="T-ROC">
+        <div class="car card-body pt-0 px-0">
+          <div class="d-flex flex-row justify-content-between mb-0 px-3">
+            <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+            <h5>&euro;90/jour</h5>
+          </div>
+          <hr class="mt-2 mx-3">
+          <div class="d-flex flex-row justify-content-between px-3 pb-4">
+            <div class="d-flex flex-column fw-bolder"><span class="text-muted">T-ROC</span>Style</div>
+            <div class="d-flex flex-column"><h7 class="mb-0">VOLKSWAGEN</h7 class="text-muted text-right"><small>2020</small></div>
+          </div>
+          
+          <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions2" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions2" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>VOLKSWAGEN T-ROC</strong> <em>STYLE</em></span></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <img src="\ressources\images\trocsansfond.png" class="img-fluid" alt="T-ROC">
+              <p>De l’avant à l’arrière, le  T-ROC impressionne par son design lumineux. 
+                Le véhicule arbore un design élégant et sportif qui ne manquera pas de vous faire 
+                remarquer. Avec son sa technologie de pointe, son confort supérieur et sa performance fiable, ce véhicule allemand vous offrira une expérience de conduite unique.</p>
+                <p>
+                  <ul>
+                    <li>24H: <span class="text-white">90&euro;</span></li>
+                    <li>5J: <span class="text-white">400&euro;</span></li>
+                    <li>7J: <span class="text-white">550&euro;</span></li>
+                    <li>VEN-DIM: <span class="text-white">250&euro;</span></li>
+                    <li>VEN-LUN: <span class="text-white">350&euro;</span></li>
+                  </ul>
+                </p>
+
+                <p>Concernant les kilométrages voici les détails ci-dessous:
+                  <em>
+                    <ul>
+                      <li>24H: 150km(inclus)</li>
+                      <li>5J: 750km(inclus)</li>
+                      <li>7J: 1100km(inclus)</li>
+                      <li>VEN-DIM: 350km(inclus)</li>
+                      <li>VEN-LUN: 650km(inclus)</li>
+                      <li>Tous kilométres supplémentaires sera facture : 0.8&euro;/km</li>
+                    </ul>
+                  </em>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+          <div class="card car">
+        <img src="\ressources\images\fiat 500x violet.png" class="card-img-top" width="100%">
+        <div class="car card-body pt-0 px-0">
+          <div class="d-flex flex-row justify-content-between mb-0 px-3">
+            <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+            <h5>&euro;80/jour</h5>
+          </div>
+          <hr class="mt-2 mx-3">
+          <div class="d-flex flex-row justify-content-between px-3 pb-4">
+            <div class="d-flex flex-column fw-bolder"><span class="text-muted">500x</span>AMG LINE</div>
+            <div class="d-flex flex-column"><h7 class="mb-0">FIAT</h7 class="text-muted text-right"><small>2018</small></div>
+          </div>
+          
+          <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions3" aria-controls="offcanvasWithBothOptions3" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions3" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>FIAT 500</strong> <em>X</em></span></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <img src="\ressources\images\fiatsansfond.png" class="img-fluid" alt="Fiat 500X">
+          <p>La Fiat 500X est un choix idéal pour les conducteurs qui cherchent un véhicule compact, élégant et moderne. Ce véhicule italien offre un design distinctive, 
+            une technologie de pointe, un confort supérieur et une performance fiable pour une expérience de conduite unique.</p>
+            <p>
+              <ul>
+                <li>24H: <span class="text-white">80&euro;</span></li>
+                <li>5J: <span class="text-white">350&euro;</span></li>
+                <li>7J: <span class="text-white">500&euro;</span></li>
+                <li>VEN-DIM: <span class="text-white">200&euro;</span></li>
+                <li>VEN-LUN: <span class="text-white">300&euro;</span></li>
+              </ul>
+            </p>
+
+            <p>Concernant les kilométrages voici les détails ci-dessous:
+              <em>
+                <ul>
+                  <li>24H: 150km(inclus)</li>
+                  <li>5J: 750km(inclus)</li>
+                  <li>7J: 1100km(inclus)</li>
+                  <li>VEN-DIM: 350km(inclus)</li>
+                  <li>VEN-LUN: 650km(inclus)</li>
+                  <li>Tous kilométres supplémentaires sera facture : 0.8&euro;/km</li>
+                </ul>
+              </em>
+            </p>
+        </div>
+        </div>
+      </div>
+        </div>
+      
+        </div>
+      
+      </div>
+  </div>
+
+  <div class="container-fluid d-flex justify-content-center px-4">
+    <div class="row mt-5 gx-5">
+      <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+        <div class="card car" >
+      <img src="\ressources\images\lynkco.png" class="card-img-top" width="100%">
+      <div class="car card-body pt-0 px-0">
+        <div class="d-flex flex-row justify-content-between mb-0 px-3">
+          <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+          <h5>&euro;90/jour</h5>
+        </div>
+        <hr class="mt-2 mx-3">
+        <div class="d-flex flex-row justify-content-between px-3 pb-4">
+          <div class="d-flex flex-column fw-bolder"><span class="text-muted">T-ROC</span>01</div>
+          <div class="d-flex flex-column"><h7 class="mb-0">LYNK&CO</h7 class="text-muted text-right"><small>2022</small></div>
+        </div>
+        
+        <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions4" aria-controls="offcanvasWithBothOptions4" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions4" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>LYNK&CO</strong> <em>01</em></span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <img src="\ressources\images\lynkoblue.png" class="img-fluid" alt="lynk&co">
+            <p>La LYNK&CO 01 est un SUV qui paraît ressembler à tous les SUV, mais qui n’est semblable en réalité à aucun autre. 
+              Avec son moteur puissant et son châssis performant, le Lynk & Co 01 offre une expérience de conduite fluide et efficace, que ce soit en ville ou sur les routes.
+              Profitez d'une voiture dotée de fonctionnalités hors du commun, de détails de haute technologie:<br>
+              Toit ouvrant panoramique ? Bien sûr.<br>
+              Aide au stationnement ? Évidemment.<br>
+              Tout un tas d'autres fonctionnalités ? Ne cherchez pas plus loin. 
+            </p>
+              <p>
+                <ul>
+                  <li>24H: <span class="text-white">90&euro;</span></li>
+                  <li>5J: <span class="text-white">400&euro;</span></li>
+                  <li>7J: <span class="text-white">550&euro;</span></li>
+                  <li>VEN-DIM: <span class="text-white">250&euro;</span></li>
+                  <li>VEN-LUN: <span class="text-white">350&euro;</span></li>
+                </ul>
+              </p>
+
+              <p>Concernant les kilométrages voici les détails ci-dessous:
+                <em>
+                  <ul>
+                    <li>24H: 150km(inclus)</li>
+                    <li>5J: 750km(inclus)</li>
+                    <li>7J: 1100km(inclus)</li>
+                    <li>VEN-DIM: 350km(inclus)</li>
+                    <li>VEN-LUN: 650km(inclus)</li>
+                    <li>Tous kilométres supplémentaires sera facture : 0.8&euro;/km</li>
+                  </ul>
+                </em>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-center" style="padding-bottom: 24px;">
+        <div class="card car">
+      <img src="\ressources\images\tcross.png" class="card-img-top" width="100%">
+      <div class="car card-body pt-0 px-0">
+        <div class="d-flex flex-row justify-content-between mb-0 px-3">
+          <small class="text-muted mt-1 fw-bolder fs-5">A partir de :</small>
+          <h5>&euro;80/jour</h5>
+        </div>
+        <hr class="mt-2 mx-3">
+        <div class="d-flex flex-row justify-content-between px-3 pb-4">
+          <div class="d-flex flex-column fw-bolder"><span class="text-muted">T-CROSS</span>LIFE</div>
+          <div class="d-flex flex-column"><h7 class="mb-0">VOLKSWAGEN</h7 class="text-muted text-right"><small>2020</small></div>
+        </div>
+        
+        <div class="mx-3 mt-3 mb-2 d-flex justify-content-center"><button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions5" class="btn btn-danger btn-block "><small>VOIR PRIX</small></button></div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel"><span class="underline--magical"><strong>VOLKSWAGEN T-CROSS</strong> <em>STYLE</em></span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="\ressources\images\tcrosssansfond.png" class="img-fluid" alt="T-CROSS">
+        <p>Aussi à l’aise en ville que sur les routes les plus reculées, polyvalente et compacte, elle associe design crossover tendance et fonctionnalité, 
+          l’idéal au quotidien. Pour résumer, le T-Cross est un aventurier des temps modernes, ingénieux, polyvalent et résolument dans l’air du temps.
+          Une carrosserie angulaire. Une calandre imposante. Une garde au sol surélevée. Autant de détails qui lui confèrent un style unique et un caractère saisissant.</p>
+          <p>
+            <ul>
+              <li>24H: <span class="text-white">80&euro;</span></li>
+              <li>5J: <span class="text-white">350&euro;</span></li>
+              <li>7J: <span class="text-white">500&euro;</span></li>
+              <li>VEN-DIM: <span class="text-white">200&euro;</span></li>
+              <li>VEN-LUN: <span class="text-white">300&euro;</span></li>
+            </ul>
+          </p>
+
+          <p>Concernant les kilométrages voici les détails ci-dessous:
+            <em>
+              <ul>
+                <li>24H: 150km(inclus)</li>
+                <li>5J: 750km(inclus)</li>
+                <li>7J: 1100km(inclus)</li>
+                <li>VEN-DIM: 350km(inclus)</li>
+                <li>VEN-LUN: 650km(inclus)</li>
+                <li>Tous kilométres supplémentaires sera facture : 0.8&euro;/km</li>
+              </ul>
+            </em>
+          </p>
+      </div>
+      </div>
+    </div>
+      </div>
+    
+      </div>
+    
+    </div>
+</div>
+
+  <div class="container py-5" id="contact">
+    <div class="row min-vh-50 align-items-center">
+      <div class="col-md-12 text-center">
+        <div class="lc-block mb-4">
+          <div editable="rich">
+            <h2 class="display-3 fw-bolder text-white">Contactez-nous</h2>
+            <p>Pour toute question concernant une réservation.<br>Vous pouvez nous joindre directement depuis notre numéro téléphone ou nos réseaux sociaux :</p>
+  
+          </div>
+        </div><!-- /lc-block -->
+        <div class="lc-block mb-5">
+          <a class="btn btn-lg btn-dark" href="https://instagram.com/citizenfr?igshid=YmMyMTA2M2Y=" role="button">INSTAGRAM</a>
+          <a class="btn btn-lg btn-dark" href="https://instagram.com/citizenfr?igshid=YmMyMTA2M2Y=" role="button">Tél :07.84.89.52.31</a>
+        </div><!-- /lc-block -->
+        <div class="lc-block border-top col-md-6 offset-md-3">
+          <div editable="rich">
+            <h2 class="fw-bolder"><br></h2>
+          </div>
+        </div>
+        <div class="lc-block mb-4">
+          <div editable="rich">
+            <h2 class="fw-bolder">Heures d'ouverture:</h2>
+          </div>
+        </div>
+        <div class="lc-block">
+          <div editable="rich">
+            <p>Lundi à Vendredi: 07:00 – 19:45</p>
+            <p>Samedi à Dimanche: 11:00 – 17:00</p>
+          </div>
+        </div><!-- /lc-block -->
+      </div><!-- /col -->
+    </div>
+  </div>
+
+
+
+  <footer class="text-center text-lg-start mt-5" style="background-color: #db6930;">
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="bi bi-snapchat"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="bi bi-whatsapp"></i>
+      </button>
+      <button onclick="window.location.href='https://instagram.com/citizenfr?igshid=YmMyMTA2M2Y='" type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="bi bi-instagram"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="bi bi-google"></i>
+      </button>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://instagram.com/citizenfr?igshid=YmMyMTA2M2Y=">CITIZEN</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+   
+    <script src="index.js"></script>
+</body>
+</html>
