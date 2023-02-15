@@ -5,7 +5,7 @@ const nav = document.querySelector("nav");
 window.addEventListener('scroll', () => {
     
 
-   if (window.scrollY > 800) {nav.style.visibility = "hidden"} else {
+   if (window.scrollY > 60) {nav.style.visibility = "hidden"} else {
     nav.style.visibility = "visible"
    }
 });
